@@ -15,6 +15,8 @@
 		5F9D34B52602B150000865C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D34B32602B150000865C6 /* LaunchScreen.storyboard */; };
 		5F9D34C02602B150000865C6 /* Project_39___Unit_testing_with_XCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D34BF2602B150000865C6 /* Project_39___Unit_testing_with_XCTestTests.swift */; };
 		5F9D34CB2602B150000865C6 /* Project_39___Unit_testing_with_XCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D34CA2602B150000865C6 /* Project_39___Unit_testing_with_XCTestUITests.swift */; };
+		5F9D34DC2602B192000865C6 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D34DB2602B192000865C6 /* plays.txt */; };
+		5F9D34E12602B24B000865C6 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D34E02602B24B000865C6 /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F9D34C62602B150000865C6 /* Project 39 - Unit testing with XCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 39 - Unit testing with XCTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D34CA2602B150000865C6 /* Project_39___Unit_testing_with_XCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_39___Unit_testing_with_XCTestUITests.swift"; sourceTree = "<group>"; };
 		5F9D34CC2602B150000865C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9D34DB2602B192000865C6 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
+		5F9D34E02602B24B000865C6 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5F9D34A72602B14F000865C6 /* Project 39 - Unit testing with XCTest */ = {
 			isa = PBXGroup;
 			children = (
+				5F9D34DB2602B192000865C6 /* plays.txt */,
+				5F9D34E02602B24B000865C6 /* PlayData.swift */,
 				5F9D34A82602B14F000865C6 /* AppDelegate.swift */,
 				5F9D34AA2602B14F000865C6 /* SceneDelegate.swift */,
 				5F9D34AC2602B14F000865C6 /* ViewController.swift */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9D34DC2602B192000865C6 /* plays.txt in Resources */,
 				5F9D34B52602B150000865C6 /* LaunchScreen.storyboard in Resources */,
 				5F9D34B22602B150000865C6 /* Assets.xcassets in Resources */,
 				5F9D34B02602B14F000865C6 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9D34AD2602B14F000865C6 /* ViewController.swift in Sources */,
+				5F9D34E12602B24B000865C6 /* PlayData.swift in Sources */,
 				5F9D34A92602B14F000865C6 /* AppDelegate.swift in Sources */,
 				5F9D34AB2602B14F000865C6 /* SceneDelegate.swift in Sources */,
 			);
